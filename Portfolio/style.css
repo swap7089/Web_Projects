@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3a8a, #9333ea);
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text span {
+    color: #38bdf8;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.hero-text button {
+    padding: 12px 25px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.hero-text button:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.projects {
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 30px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #334155;
+}
+
+.contact {
+    padding: 60px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
